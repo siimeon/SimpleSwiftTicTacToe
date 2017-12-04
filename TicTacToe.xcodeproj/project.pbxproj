@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24E287531FD4A8A300CA8B96 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E287521FD4A8A300CA8B96 /* Game.swift */; };
 		24FDDF9B1FD2F069005B136B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDDF9A1FD2F069005B136B /* AppDelegate.swift */; };
 		24FDDF9D1FD2F069005B136B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDDF9C1FD2F069005B136B /* ViewController.swift */; };
 		24FDDFA01FD2F069005B136B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FDDF9E1FD2F069005B136B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24E287521FD4A8A300CA8B96 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		24FDDF971FD2F069005B136B /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FDDF9A1FD2F069005B136B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24FDDF9C1FD2F069005B136B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				24FDDFA11FD2F069005B136B /* Assets.xcassets */,
 				24FDDFA31FD2F069005B136B /* LaunchScreen.storyboard */,
 				24FDDFA61FD2F069005B136B /* Info.plist */,
+				24E287521FD4A8A300CA8B96 /* Game.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -187,6 +190,9 @@
 		24FDDF8F1FD2F069005B136B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					demo,
+				);
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Simo Haakana";
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24FDDF9D1FD2F069005B136B /* ViewController.swift in Sources */,
+				24E287531FD4A8A300CA8B96 /* Game.swift in Sources */,
 				24FDDF9B1FD2F069005B136B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
